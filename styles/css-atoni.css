@@ -1,0 +1,347 @@
+/* Base Styles */
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #faf5ef;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  color: #666666 !important;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 29px;
+}
+/* End Base Styles */
+
+/* Navigácia CSS*/
+.obal-nav {
+  box-shadow: 0 0 30px rgba(7, 51, 84, 0.17) !important;
+  padding: 2rem;
+  z-index: 9999;
+  background-color: #fff;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.nav-item a {
+  color: black;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.nav-item a:hover {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline 2px solid black;
+  text-underline-offset: 4px;
+}
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #fff;
+}
+.navbar-toggler:hover {
+  background-color: #fff;
+}
+
+/* Koniec Navigácie */
+/* Jumbo CSS */
+.jumbo-obal {
+  background-color: #faf5ef;
+  padding-bottom: 1rem;
+}
+.jumbo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.jumbo-obsah {
+  padding: 4rem 10rem;
+}
+.jumbo h1 {
+  margin-top: 0.5rem;
+  font-size: clamp(4rem, 2.868vw + 3.082rem, 7rem);
+}
+
+.mini-nadpis {
+  color: #008186 !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  font-size: 1.8rem;
+}
+
+.jumbo-ikony li span {
+  color: #666666 !important;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.jumbo-ikony {
+  list-style-type: none;
+  color: #008186 !important;
+  font-size: 3rem;
+}
+.jumbo-img-wrap {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.jumbo-box {
+  box-shadow: 0px 20px 50px 0px rgba(63, 22, 0, 0.2);
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  gap: 2rem;
+}
+.box {
+  color: #d37643;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 2rem 3rem;
+  gap: 0.5rem;
+}
+.box:nth-child(2) {
+  border: 2px solid #ebe4dd;
+  border-top: 0;
+  border-bottom: 0;
+}
+.box-link a {
+  color: #d37643;
+  font-weight: 400;
+  text-decoration: none;
+}
+.box-link a:hover {
+  text-decoration: underline 3px #d37643;
+}
+.box a,
+.box span {
+  width: 100%;
+}
+.box svg {
+  color: #008186;
+  font-size: 3rem;
+}
+
+/* Jumbo Koniec */
+
+/* Fotky Ubytovania */
+.fotky-ubytovania {
+  padding: 5rem 0;
+}
+h2 {
+  font-size: clamp(3rem, 2.868vw + 2.082rem, 4rem);
+}
+.fotky-ubytovania p {
+  font-size: clamp(1rem, 0.956vw + 0.694rem, 2rem);
+  color: black;
+  margin-bottom: 2rem;
+}
+.lg-download {
+  display: none;
+}
+
+/* Koniec Fotky Ubytovania */
+/* Vybavenie */
+#vybavenie {
+  background-color: #d37643;
+}
+#vybavenie p {
+  color: #fff !important;
+}
+
+/* Koniec Vybravenia  */
+.cena-ubytovania {
+  font-size: 18px;
+  line-height: 125%;
+}
+.obrazok-ubytovanie {
+  max-width: 400px;
+}
+
+.lg-react-element {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.obrazok {
+  margin: 10px;
+}
+.hidden {
+  display: none;
+}
+
+.popis h2 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.popis {
+  padding: 50px 20px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 1.1px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+footer {
+  padding: 20px;
+  background-color: #d37643;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+footer p {
+  margin-right: 20px !important;
+  margin: 0;
+  color: white !important;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s ease-in-out;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline 2px solid white;
+}
+.potvrdenie {
+  margin-left: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+form {
+  font-size: 1.5rem;
+}
+.form-control {
+  font-size: 1.5rem;
+}
+.form-check-label {
+  font-size: 1.5rem;
+}
+.form-check-input {
+  margin-top: 0 !important;
+  margin-left: 15px;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.form-tlacitko {
+  border: 0;
+  margin-top: 2rem;
+}
+textarea {
+  min-height: 140px !important;
+}
+.card-title {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.card-subtitle {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card-text {
+  margin-bottom: 30px;
+}
+.card img {
+  max-height: 250px;
+  width: 100%;
+}
+.dalsie-btn {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+/* Tlačítko */
+.tlacitko {
+  color: #fff;
+  background-color: #d37643;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.tlacitko:hover {
+  color: #fff;
+  text-decoration: 2px solid white underline;
+}
+
+.ikonka-hore {
+  text-align: end;
+}
+.ikonka-hore svg {
+  margin: 30px;
+  font-size: 4rem;
+  color: #d37643;
+  transition: 0.3s all ease;
+}
+.ikonka-hore svg:hover {
+  scale: 115%;
+  cursor: pointer;
+}
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  /* Jumbo */
+  .jumbo {
+    grid-template-columns: 1fr;
+    padding: 4rem 0rem;
+  }
+  .jumbo-obsah {
+    padding: clamp(2rem, 1.912vw + 1.388rem, 4rem);
+  }
+  .jumbo-box {
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 400px;
+  }
+  .box {
+    justify-content: center;
+    text-align: center;
+  }
+  .box:nth-child(2) {
+    border: 0;
+  }
+  .jumbo-img-wrap img {
+    position: initial !important;
+  }
+
+  /* Koniec Jumba */
+  .lg-react-element {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .jumbo-tlacitka {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .jumbo-tlacitka .tlacitko {
+    margin: 5px;
+  }
+  .forma {
+    margin-top: 40px !important;
+  }
+}

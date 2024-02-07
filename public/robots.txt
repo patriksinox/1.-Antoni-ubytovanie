@@ -1,0 +1,4 @@
+Sitemap: https://www.ubytovanieantoni.sk/sitemap.xml
+User-agent: *
+Disallow:
+Allow: *

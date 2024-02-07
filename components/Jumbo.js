@@ -53,6 +53,7 @@ const Jumbo = () => {
                   src={fotka}
                   alt="Fotka ubytovania Antoni s výhľadom na Tvrdošín."
                   fill
+                  priority
                 />
               </div>
             </div>

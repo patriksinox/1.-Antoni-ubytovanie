@@ -20,7 +20,7 @@ p {
 /* Navigácia CSS*/
 .obal-nav {
   box-shadow: 0 0 30px rgba(7, 51, 84, 0.17) !important;
-  padding: 2rem;
+  padding: 1rem;
   z-index: 9999;
   background-color: #fff;
 }

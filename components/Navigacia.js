@@ -21,7 +21,7 @@ function Navigacia(args) {
     <header className="obal-nav" id="vrch">
       <Navbar {...args} className="navbar-expand-md container">
         <NavbarBrand href="/" alt="Prejsť na hlavnú stránku.">
-          <Image src={icon} />
+          <Image src={icon} alt="Ikona webstránky" />
           Ubytovanie Antoni
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

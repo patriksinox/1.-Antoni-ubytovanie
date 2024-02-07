@@ -2,6 +2,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   background-color: #faf5ef;
   margin: 0;
@@ -32,6 +33,7 @@ p {
   gap: 1rem;
   font-weight: 900;
   font-size: 2rem;
+  letter-spacing: 3px;
 }
 .nav-item a {
   color: black;
@@ -74,7 +76,7 @@ p {
 }
 
 .mini-nadpis {
-  color: #008186 !important;
+  color: #094d92 !important;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.4rem;
@@ -88,7 +90,7 @@ p {
 }
 .jumbo-ikony {
   list-style-type: none;
-  color: #008186 !important;
+  color: #094d92 !important;
   font-size: 3rem;
 }
 .jumbo-img-wrap {
@@ -108,7 +110,7 @@ p {
   gap: 2rem;
 }
 .box {
-  color: #d37643;
+  color: #094d92;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -121,19 +123,19 @@ p {
   border-bottom: 0;
 }
 .box-link a {
-  color: #d37643;
+  color: #094d92;
   font-weight: 400;
   text-decoration: none;
 }
 .box-link a:hover {
-  text-decoration: underline 3px #d37643;
+  text-decoration: underline 3px #094d92;
 }
 .box a,
 .box span {
   width: 100%;
 }
 .box svg {
-  color: #008186;
+  color: #094d92;
   font-size: 3rem;
 }
 
@@ -158,13 +160,13 @@ h2 {
 /* Koniec Fotky Ubytovania */
 /* Vybavenie */
 #vybavenie {
-  background-color: #d37643;
+  background-color: #094d92;
 }
 #vybavenie p {
   color: #fff !important;
 }
 
-/* Koniec Vybravenia  */
+/* Koniec Vybavenia  */
 .cena-ubytovania {
   font-size: 18px;
   line-height: 125%;
@@ -204,7 +206,7 @@ iframe {
 }
 footer {
   padding: 20px;
-  background-color: #d37643;
+  background-color: #094d92;
   color: #fff;
   display: flex;
   justify-content: space-around;
@@ -277,7 +279,7 @@ textarea {
 /* Tlačítko */
 .tlacitko {
   color: #fff;
-  background-color: #d37643;
+  background-color: #094d92;
   font-size: 1.8rem;
   text-decoration: none;
   padding: 1rem 2rem;
@@ -294,7 +296,7 @@ textarea {
 .ikonka-hore svg {
   margin: 30px;
   font-size: 4rem;
-  color: #d37643;
+  color: #094d92;
   transition: 0.3s all ease;
 }
 .ikonka-hore svg:hover {
@@ -331,15 +333,6 @@ textarea {
   .lg-react-element {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-  }
-  .jumbo-tlacitka {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .jumbo-tlacitka .tlacitko {
-    margin: 5px;
   }
   .forma {
     margin-top: 40px !important;

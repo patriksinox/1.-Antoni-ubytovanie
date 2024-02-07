@@ -6,18 +6,25 @@ import Vybavenie from "../components/Vybavenie";
 import MapaForm from "../components/MapaForm";
 import Footer from "../components/Footer";
 
+import { Mulish } from "next/font/google";
+
+// If loading a variable font, you don't need to specify the font weight
+const mulish = Mulish({ subsets: ["latin"] });
+
 export default function Home() {
   return (
     <>
-      <Navigacia />
-      <Jumbo />
-      <Galeria />
-      <Vybavenie />
-      <div className="container">
-        <Okolie />
-        <MapaForm />
-      </div>
-      <Footer />
+      <div className={mulish.className}>
+        <Navigacia />
+        <Jumbo />
+        <Galeria />
+        <Vybavenie />
+        <div className="container">
+          <Okolie />
+          <MapaForm />
+        </div>
+        <Footer />
+      </div>{" "}
     </>
   );
 }

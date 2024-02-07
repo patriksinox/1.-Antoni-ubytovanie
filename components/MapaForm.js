@@ -226,7 +226,7 @@ const MapaForm = () => {
           </Row>
           <Slide direction="up">
             <p className="ikonka-hore">
-              <a href="#vrch" alt="link to top">
+              <a href="#vrch" alt="Odkaz na presmerovanie na vrchol stránky.">
                 <HiOutlineChevronUp />
               </a>
             </p>

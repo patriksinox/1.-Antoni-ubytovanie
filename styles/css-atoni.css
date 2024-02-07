@@ -307,7 +307,10 @@ textarea {
   /* Jumbo */
   .jumbo {
     grid-template-columns: 1fr;
-    padding: 4rem 0rem;
+    padding: 0rem 0rem 4rem;
+  }
+  .jumbo-image {
+    order: -1;
   }
   .jumbo-obsah {
     padding: clamp(2rem, 1.912vw + 1.388rem, 4rem);

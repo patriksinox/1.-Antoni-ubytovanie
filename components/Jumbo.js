@@ -47,7 +47,7 @@ const Jumbo = () => {
                 </li>
               </ul>
             </div>
-            <div className="jumbo-el ">
+            <div className="jumbo-el jumbo-image ">
               <div className="jumbo-img-wrap">
                 <Image
                   src={fotka}
